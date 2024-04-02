@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Tilt+Warp&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="body">
+    <header class="header">
+        <img class="header-logo" src="./img/logo.png" alt="">
+        <div class="menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    
+        <div class="header__nav">
+            <nav class="nav">
+                <div class="nav__box">
+                        <div class="slides">
+                            <div class="slide ">
+                                <img class="slide-img-1"  src="./img/Saturn-1.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img class="slide-img-2" src="./img/Mars-1.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img class="slide-img-3" src="./img/Earth-1.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img class="slide-img-4" src="./img/Mercury-1.png" alt="">
+                            </div>
+                        </div>
+                        <div id="info"></div>
+
+
+
+                    <ul class="nav__box__list">
+                        <div class="nav__box__list-point" onmouseover="showSlide(0)">Saturn</div>
+                        <div class="nav__box__list-point" onmouseover="showSlide(1)">Mars</div>
+                        <div class="nav__box__list-point" onmouseover="showSlide(2)">Earth</div>
+                        <div class="nav__box__list-point" onmouseover="showSlide(3)">Mercury</div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+
+
+    <main class="main">
+        <section class="container">
+            <div class="slider">
+                <div class="slider__slider">
+                    <div class="slider__slider-body">
+                        <h2 class="slider__slider-titel">Saturn: Ringed Wonder</h2>
+                        <p class="slider__slider-text">Enter the enchanting realm of Saturn, the jewel of our solar system! Marvel at its stunning rings, composed of icy particles and rocky debris, stretching across vast distances.  Delve into Saturn's swirling storms and intricate cloud patterns, shaped by powerful winds. Join us as we unravel the mysteries of this majestic gas giant, revealing its secrets and wonders through the lens of exploration and discovery.
+                        </p>
+                        <div class="slider__slider-body-box__1-1 slider__slider-body-box">
+                            <img class="slider__slider-body__1-1" id="object1" src="./img/Saturn-1.png" alt="#">
+                        </div>
+                        <div class="slider__slider-body-box__1-2 slider__slider-body-box">
+                            <img class="slider__slider-body__1-2" src="./img/Saturn-2.png" alt="#">
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <div class="slider__slider">
+                    <div class="slider__slider-body">
+                        <h2 class="slider__slider-titel">Mars: The Red Planet</h2>
+                        <p class="slider__slider-text">Embark on a journey to Mars, the enigmatic Red Planet! Explore its captivating landscapes, towering volcanoes, and deep canyons. Delve into the mysteries of its thin atmosphere and frozen polar caps. Uncover the latest discoveries about Martian geology and the search for life beyond Earth. Join us as we unravel the secrets of Mars, the next frontier of human exploration!                        </p>
+                        <div class="slider__slider-body-box__2-1 slider__slider-body-box">
+                            <img  class="slider__slider-body__2-1 " src="./img/Mars-1.png" alt="#">
+                        </div>
+                        <div class="slider__slider-body-box__2-2 slider__slider-body-box">
+                            <img  class="slider__slider-body__2-2" src="./img/Mars-2.png" alt="#">
+                        </div>
+                        <div class="slider__slider-body-box__2-3 slider__slider-body-box">
+                            <img class="slider__slider-body__2-3" src="./img/Mars-3.png" alt="#">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slider__slider">
+                    <div class="slider__slider-body">
+                        <h2 class="slider__slider-titel">Earth: Our Blue Home</h2>
+                        <p class="slider__slider-text">Welcome to Earth, our breathtaking blue marble home! Explore the diverse wonders of our planet, from the majestic oceans to the towering mountains. Learn about its vibrant ecosystems, rich biodiversity, and the delicate balance of life.  Join us in celebrating the beauty and complexity of our one-of-a-kind planet, and let's work together to protect and preserve it for generations to come.</p>
+                        <div class="slider__slider-body-box__3-1 slider__slider-body-box">
+                            <img class="slider__slider-body__3-1"  src="./img/Earth-1.png" alt="#">
+                        </div>
+                        <div class="slider__slider-body-box__3-2 slider__slider-body-box">
+                            <img class="slider__slider-body__3-2"  src="./img/Earth-2.png" alt="#">
+                        </div>
+                        <div class="slider__slider-body-box__3-3 slider__slider-body-box">
+                            <img class="slider__slider-body__3-3"  src="./img/Earth-3.png" alt="#">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slider__slider">
+                    <div class="slider__slider-body">
+                        <h2 class="slider__slider-titel">  Mercury:The Swift Messenger </h2>
+                        <p class="slider__slider-text"> Embark on a journey to Mercury, the swift messenger of our solar system! Discover its scorched surface, battered by impacts from space. Learn about its elusive atmosphere and mysterious magnetic field.Join us as we unravel the mysteries of Mercury and unlock insights into the formation of our solar system!</p>
+                        <div class="slider__slider-body-box__4-1  slider__slider-body-box">
+                            <img class="slider__slider-body__4-1" src="./img/Mercury-1.png" alt="#">
+                        </div>
+                        <div class="slider__slider-body-box__4-2 slider__slider-body-box">
+                            <img class="slider__slider-body__4-2"  src="./img/Mercury-2.png" alt="#">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+            <div class="slider__dots">
+                <ol class="slider__dots__groop">
+                    <ul class="slider__dots__groop-element-1">Saturn</ul>
+                    <ul class="slider__dots__groop-element-2">Mars</ul>
+                    <ul class="slider__dots__groop-element-3">Earth</ul>
+                    <ul class="slider__dots__groop-element-4">Mercury</ul>
+                </ol>
+            </div>
+            <footer class="footer">
+                <div class="footer__box">
+                    <div class="footer__box-small">
+                        <p  class="footer__box-small-text">EN</p>
+                        <p class="footer__box-small-text">-  UA</p>
+                    </div>
+                    <p class="footer__box-text">Legals</p>
+                    <p class="footer__box-text">Replay video</p>
+                </div>
+            </footer>
+        </section>
+
+    </main>
+    <script src="./script.js"></script>
+    <script src="./paralax.js"></script>
+    <script src="./burger.js"></script>
+    <script src="./slider.js"></script>
+</body>
+</html>
